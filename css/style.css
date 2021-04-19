@@ -1,4 +1,4 @@
-/* Header */
+
 #hero {
   width: 100%;
   height: auto;
@@ -21,23 +21,26 @@
   font-style: italic;
 }
 
-/* Wildlife Observations Map */
+
 #map-container {
   height: 450px;
   width: 100%;
 }
 
-.marker-text {
-  text-align: center;
-}
 
-/* Wildlife Observations Table */
+
+
 .buttons {
   text-align: center;
   margin: 2em;
 }
 .buttons > button:hover {
   background-color: lightblue;
+}
+
+
+.marker-text {
+  text-align: center;
 }
 
 td {
@@ -48,7 +51,7 @@ time {
   background: inherit;
 }
 
-/* Cards */
+
 #observation-cards {
   display: flex;
   flex-direction: row;
@@ -102,21 +105,23 @@ time {
   margin: 3px;
 }
 
-.card-icons {
-  padding: 0 15px;
-  padding-top: 0;
-  text-align: right;
-} 
+
 
 .card-icons > i {
   margin: 5px;
   font-size: 1.1em;
 }
 
-/* Footer */
+
 footer {
   text-align: right;
 }
+
+.card-icons {
+  padding: 0 15px;
+  padding-top: 0;
+  text-align: right;
+} 
 
 #search {
   display:flex;
@@ -125,14 +130,13 @@ footer {
   vertical-align: middle;
 
 }
-/** * TODO: style the Search Form */
-#search > input {
-  flex: 1;
-}
+
 
 #searchBtn > i {
   font-size: 95%;
 }
-/* #searchBar {
-  font-weight: 400;
-} */
+
+#search > input {
+  flex: 1;
+}
+
