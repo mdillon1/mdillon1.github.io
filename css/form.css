@@ -1,0 +1,29 @@
+
+ #submitbutton:hover{
+    outline: 2px auto #afe7ff;
+ }
+
+ .required{
+    color: red;
+ }
+ #latitudeErrorMsg, #longitudeErrorMsg{
+   color: red;
+}
+
+ #description, #photographerName, #photographerEmail, #photo{
+    width: 65%;
+    text-overflow: ellipsis; 
+ } 
+ 
+ #notes, #licenceOption {
+    width: 68%;
+    min-width: 300px;
+    text-overflow: ellipsis; 
+ }
+
+#checkboxShare{
+    vertical-align: middle;
+}
+#checkboxText{
+    margin-left: -5px;
+}
