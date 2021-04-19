@@ -1,11 +1,9 @@
 
- #submitBtn:hover{
+ #submitbutton:hover{
     outline: 2px auto #afe7ff;
  }
 
- .required{
-    color: red;
- }
+
  #latitudeErrorMsg, #longitudeErrorMsg{
    color: red;
 }
@@ -14,11 +12,8 @@
     width: 65%;
     text-overflow: ellipsis; 
  } 
- 
- #notes, #licenseDropdown {
-    width: 68%;
-    min-width: 300px;
-    text-overflow: ellipsis; 
+  .required{
+    color: red;
  }
 
 #checkboxShare{
@@ -27,3 +22,10 @@
 #checkboxText{
     margin-left: -5px;
 }
+
+ #notes, #licenseDropdown {
+    width: 69%;
+    min-width: 300px;
+    text-overflow: ellipsis; 
+ }
+
